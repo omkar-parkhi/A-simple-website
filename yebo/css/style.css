@@ -1,0 +1,400 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+		line-height:26px;
+}
+p{
+	color:#9fa1a3;
+}
+.text-center{
+	text-align: center;
+}
+.line{
+	width:50px;
+	height:1px;
+	border-radius:10px;
+	background:#d7d7d7;
+	margin:0 auto;
+	margin-top:20px;
+}
+header{
+	width:100%;
+	height:70vh;
+	background:url(../images/background/hero.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.logo-1{
+	margin-top:30px;
+}
+nav{
+	display: none;
+}
+.about {
+	width:100%;
+	padding:50px 0 50px 0;
+	text-align: center;
+	background:#f7f7f7;
+}
+.about h1, .about p{
+	margin-top:30px;
+}
+.work{
+	width:100%;
+}
+.handle-image{
+	width:100%;
+	background:url(../images/illustration/handle.png);
+	background-size:100% 100%;
+	height:350px;
+}
+.handle-image img{
+	margin-top:140px;
+	width:13%;
+}
+.vintage-oliva{
+	width:100%;
+	text-align: center;
+}
+.vintage-oliva img,.la-boriosa img,.retro-bike img{
+	margin-top:40px;
+}
+.rotate-square{
+	width:20px;
+	height:20px;
+	background:white;
+	transform:rotate(45deg);
+	margin:0 auto;
+	position:relative;
+	top:10px;
+}
+.seat{
+	background:url(../images/illustration/seat.png);
+	width:100%;
+	height:150px;
+	background-size:cover;
+}
+.la-boriosa{
+	width:100%;
+	text-align: center;
+}
+.seat2{
+	background:url(../images/illustration/seat2.png);
+		width:100%;
+	height:150px;
+	background-size:cover;
+}
+.cycle{
+	width:100%;
+	height:350px;
+	background:url(../images/illustration/cycle.png);
+	background-size:100% 100%;
+}
+.cycle img,.bicycle img{
+	width:20%;
+	margin-top:140px;
+}
+.bicycle{
+	background:url(../images/illustration/rod.png);
+	width:100%;
+	height:400px;
+	background-size:100% 100%;
+}
+.retro-bike{
+	width:100%;
+	text-align: center;
+}
+.rod{
+	width:100%;
+	height:150px;
+	background-size:100% 100%;
+	background:url(../images/illustration/rod2.png);
+}
+.cycle-two{
+	width:100%;
+	height:400px;
+	background-size:100% 100%;
+	background:url(../images/illustration/cycle2.png);	
+}
+.slider{
+	width:100%;
+	height:40vh;
+	background:#f7f7f7;
+	text-align: center;
+	line-height: 40px;
+}
+.review{
+	margin-top:50px;
+}
+.review h4{
+	color:#56c7ee;
+	font-size:40px;
+	margin-bottom: 30px;
+}
+.review span{
+	display:block;
+}
+.shop{
+	width:100%;
+}
+.seat3{
+	width:100%;
+	height:200px;
+}
+.seat3-s1{
+	width:50%;
+	display:inline-block;
+	height:100%;
+	background:url(../images/illustration/seat3.png);
+	background-size:100% 100%;
+}
+.seat3-s2{
+	width:49%;
+	display:inline-block;
+	height:100%;
+	background:url(../images/illustration/colorful-seat.png);
+		background-size:100% 100%;
+}
+.seat4{
+	width:100%;
+	height:300px;
+	background:url(../images/illustration/seat4.png);
+		background-size:100% 100%;
+}
+.back{
+	width:100%;
+	height:400px;
+	background:url(../images/illustration/cycle-back.png);
+		background-size:100% 100%;
+}
+.back-wheel{
+	width:100%;
+	height:400px;
+	background:url(../images/illustration/back-wheel.png);
+		background-size:100% 100%;	
+}
+.store{
+	width:100%;
+	height:300px;
+	background:url(../images/illustration/store.png);
+		background-size:100% 100%;	
+}
+.seat-back{
+	width:100%;
+	height:300px;
+}
+.seat-5{
+	width:50%;
+	display:inline-block;
+	height:100%;
+	background:url(../images/illustration/seat5.png);
+	background-size:100% 100%;
+}
+.bag{
+	width:49%;
+	display:inline-block;
+	height:100%;
+	background:url(../images/illustration/bag.png);
+		background-size:100% 100%;
+}
+.discover{
+	width:100%;
+	background:#282f35;
+	height:200px;
+}
+.discover button{
+	margin-top:70px;
+	width:250px;
+	height:50px;
+	background:none;
+	color:#f5f5f5;
+	border:2px solid #f5f5f5;
+}
+.search{
+	padding-top:50px;
+	padding-bottom:50px;
+	width:100%;
+	text-align: center;
+}
+.search img{
+	margin-bottom: 40px;
+}
+.space{
+	margin-top:40px;
+}
+.yebo{
+	position: absolute;
+}
+.search input{
+	width:250px;
+	height:35px;
+	border:1px solid #eeee;
+}
+.search button{
+	width:50px;
+	height:50px;
+	color:#fff;
+	background:#64c29e;
+	border:none;
+}
+@media only screen and (min-width:1000px)
+{	
+	header{
+		height:100vh;
+	}
+	.logo-1{
+		display:none;
+	}
+	header img{
+		position:relative;
+		top:37px;
+	}
+	nav{
+		display:block;
+	}
+	nav ul{
+		text-align: center;
+	}
+	nav ul li{
+		display:inline;
+		list-style-type: none;
+		margin:0px 40px 0px 40px;
+	}
+	nav ul li a{
+		color:#5d5968;
+		text-decoration: none;
+	}
+	.d-block{
+		display:block;
+	}
+	.first-section{
+		width:100%;
+		display:inline-block;
+		height:469px;
+	}
+	.handle-image{
+		width:70%;
+		float: left;
+			height:475px;
+	}
+	.float-2{
+		width:30%;
+		height:100%;
+		float:left;
+	}
+	.vintage-oliva{
+		height:70%;
+	}
+	.vintage-oliva div{
+		top:40px;
+	}
+	.seat{
+		height:31.2%;
+	}
+	.second-section{
+		width:100%;
+		height:475px;
+	}
+	.float-1{
+		width:33%;
+		height:100%;
+		float:left;
+	}
+	.la-boriosa{
+		height:70%;
+	}
+	.seat2{
+		height:30%
+	}
+	.cycle{
+		float:right;
+		width:67%;
+		height:475px;
+	}
+	.third-section{
+		width:100%;
+		height:475px;
+	}
+	.bicycle{
+		width:33%;
+		float:left;
+		height:100%;
+	}
+	.retro-bike{
+		height:325px;
+	}
+	.la-boriosa div{
+		top:40px;
+	}
+	.retro-bike div{
+		top:22px;
+	}
+	.float{
+		width:33%;
+		height:100%;
+		float:left;
+	}
+	.cycle-two{
+		width:34%;
+		float:left;
+		height:100%;
+	}
+	.work img{
+		width:auto;
+		height:auto;
+	}
+	.shop{
+		width:100%;
+		height:400px;
+	}
+	.seat3,.store,.seat-back{
+		height:50%;
+	}
+	.seat4{
+		height:50%;	
+	}
+	.f1{
+		float:left;
+		width:30%;
+		height:100%;
+	}
+	.f2{
+		float:left;
+		width:40%;
+		height:100%;
+	}
+	.back{
+		width:50%;
+		float:left;
+		height:100%;
+	}
+	.back-wheel{
+		width:50%;
+		float:left;
+	}
+	.f3{
+		float:left;
+		width:30%;
+		height:100%;
+	}
+	footer{
+		text-align: center;
+	}
+}
+@media only screen and (min-width:1213px)
+{
+	.la-boriosa div{
+		top:65px;
+	}
+	.retro-bike div{
+		top:50px;
+	}
+}
+	@media only screen and (min-width:1136px)
+	{
+		.vintage-oliva div{
+		top:65px;
+	}
+	}
+}
